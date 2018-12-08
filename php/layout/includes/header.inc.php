@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
-    <link rel="shortcut icon" type="image/x-icon" href="../favicon_env.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon_env.ico">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Additional CSS -->
@@ -43,7 +43,7 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="<?php echo $_FORUM; ?>">Forum</a>
             <a class="dropdown-item" href="<?php echo $_WIKI; ?>">Wiki</a>
-            <a class="dropdown-item" href="<?php echo $_GIT_REPO; ?>">GitPrep</a>
+            <!-- <a class="dropdown-item" href="<?php echo "No, I'm not showing you ;)";//$_GIT_REPO; ?>">GitPrep</a> -->
             <a class="dropdown-item" href="<?php echo $_TICKETS; ?>">Ticket Support Service</a>
             <a class="dropdown-item" href="<?php echo $_VESTA; ?>">Powered by VESTA</a>
           </div>

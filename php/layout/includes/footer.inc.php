@@ -1,9 +1,8 @@
 <!-- Footer -->
   <footer>
     <nav class="navbar fixed-bottom navbar-light bg-dark">
-      <a class="navbar-brand" href="<?php echo $_OWN; ?>">
-        <p class="text-center">Envor Inc. &copy; <?php echo $Start_Year . " - " . $End_Year; ?> All Rights Reserved</p>
-      </a>
+      <a class="navbar-brand" href="<?php echo $_OWN; ?>"><p class="text-center">Envor Inc. &copy; </p></a>
+      <p><?php echo $Start_Year . " - " . $End_Year; ?> All Rights Reserved</p>
     </nav>
   </footer>
 <!-- End of Footer -->
